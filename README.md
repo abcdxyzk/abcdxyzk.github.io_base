@@ -29,6 +29,7 @@ sudo cp -r usr/local/lib/ruby/gems/2.3.0/* /usr/local/lib/ruby/gems/2.3.0/
 sudo cp bundler bundle compass jekyll /usr/local/bin/
 sudo cp bayes.rb  kramdown  listen  rackup  safe_yaml  summarize.rb  tilt  /usr/local/bin/
 
-rake renerate
+rake preview
+rake generate
 
 ```
