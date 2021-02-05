@@ -3,6 +3,8 @@
 
 sudo apt-get install zlib1g-dev libssl-dev
 
+yum install openssl openssl-devel zlib-devel
+
 #### zlib:   
         cd ext/zlib
         ruby extconf.rb
