@@ -26,10 +26,13 @@ yum install openssl openssl-devel zlib-devel
 sudo cp -r usr/local/lib/ruby/gems/2.3.0/* /usr/local/lib/ruby/gems/2.3.0/
 
 
-### ubuntu_local_bin.tar
+### centos or ubuntu: ubuntu_local_bin.tar
 
 sudo cp bundler bundle compass jekyll /usr/local/bin/
 sudo cp bayes.rb  kramdown  listen  rackup  safe_yaml  summarize.rb  tilt  /usr/local/bin/
+
+
+mkdir public
 
 rake preview
 rake generate
